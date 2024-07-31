@@ -4,7 +4,7 @@ file_path = 'C:\Users\shrey\Downloads\Lab Session Data.xlsx'
 sheet_name = 'Grocery'
 data = pd.read_excel(file_path,sheet_name=sheet_name)
 #####
-A = data[['Feature1', 'Feature2', 'FeatureN']].values
+A = data[['Feature1', 'Feature2', 'Featuren']].values
 C = data[['Price']].values
 #####
 dimensionality = A.shape[1]
