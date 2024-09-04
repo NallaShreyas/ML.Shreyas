@@ -10,6 +10,7 @@ else:
 #finding min  & max element
 mini = list2[0]
 maxi = list2[0]
+# use loop to traverse and check
 for j in range(len(list2)):
     if list2[j] < mini:
         mini = list2[j]
